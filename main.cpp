@@ -132,11 +132,11 @@ int main()
     puts("ENTER STR 13:");
     fgets(str13, MAXLEN, stdin);
 
-    uppercase(str13);
+    str13 = uppercase(str13);
     puts("Uppercase string: ");
     puts(str13);
 
-    lowercase(str13);
+    str13 = lowercase(str13);
     puts("Lowercase string: ");
     puts(str13);
 
